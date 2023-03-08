@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .board {
+      position: relative;
+      margin: 100px auto 800px;
+      border: 2px solid black;
+      width: 800px;
+      height: 800px;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      float: left;
+    }
+
+    #black {
+      background-color: black;
+    }
+    .king img{
+      position: absolute;
+      bottom: 0px;
+      right: 100px;
+    }
+    .rook img{
+      position: absolute;
+      bottom: 0px;
+      right: 200px;
+    }
+    .queen img{
+      position: absolute;
+      bottom: 300px;
+      left: 0px;
+    }
+    .pawn img{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="board">
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box pawn">
+      <img src="/black_pawn.png" alt="black_pawn" width="100px" height="100px">
+    </div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box" id="black"></div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box queen">
+      <img src="/white_queen.png" alt="white_queen" width="100px" height="100px">
+    </div>
+    <div class="box king" id="black">
+      <img src="/white_king.png" alt="white_king" width="100px" height="100px">
+    </div>
+    <div class="box"></div>
+    <div class="box" id="black"></div>
+    <div class="box rook">
+      <img src="/white_rook.png" alt="white_rook" width="100px" height="100px">
+    </div>
+  </div>
+</body>
+</html>
