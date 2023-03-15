@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>공유1</h1>
+  <a href="{% url 'movies:index' %}">movie index로</a>
+  <a href="{% url 'articles:index' %}">article index로</a>
+  <a href="{% url 'articles:hello' 'Tom' 20 %}">article hello로</a>
+  {% block content %}
+
+  {% endblock content %}
+  <h1>공유2</h1>
+</body>
+</html>
